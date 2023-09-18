@@ -47,3 +47,11 @@ body {
     border-radius: 5px;
     cursor:pointer;
 }
+
+.hide{
+    display: none;
+}
+
+.show{
+    display:block;
+}

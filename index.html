@@ -4,22 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Quiz</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assests/css/style.css">
 </head>
 <body>
-    <div class="quiz-container">
+    <header id="start-container">
         <h1>Code Quiz</h1>
-        <div class="Quiz">
+        <p>Let's test out your Coding Knowledge</p>
+        <button id="start-btn">Start</button>
+    </header>
+    <div class="time-container hide">
+        <h2>Time:<span id="time">60</span></h2>
+    </div>
+    <div class="quiz-container hide">
+        <h1>Code Quiz</h1>
+        <div class="quiz">
             <h2 id="question">Question goes here</h2>
             <div id="answer-buttons">
-                <button class="btn">Answer 1</button>
-                <button class="btn">Answer 2</button>
-                <button class="btn">Answer 3</button>
-                <button class="btn">Answer 4</button>
+                <button id="btn1"class="btn">Answer 1</button>
+                <button id="btn2"class="btn">Answer 2</button>
+                <button id="btn3"class="btn">Answer 3</button>
+                <button id="btn4"class="btn">Answer 4</button>
             </div>
                
         </div>
      </div>
-
+     <div class="initials-container hide">
+        <input  id ="user-input" type="text">
+        <button id="submit">Submit</button>
+        <div class="score-container">
+            <ul id="score-list"></ul>
+        </div>
+     </div>
+     <script src="./assests/js/questions.js"></script>
+<script src="./assests/js/script.js"></script>
 </body>
 </html>
