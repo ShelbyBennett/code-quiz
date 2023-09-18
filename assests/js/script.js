@@ -89,6 +89,11 @@ btnGrid.addEventListener("click", ()=>{
     const userChoice= this.event.target.textContent
    
     checkAnswer(userChoice)
+    if(selected == correct)
+    console.log("Correct!")
+    setTimeout(() => {
+        console.log("Delayed for 1 second.");
+      }, 1000);
 })
 
 submitBtn.addEventListener("click", ()=>{
