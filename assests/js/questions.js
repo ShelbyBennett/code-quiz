@@ -47,11 +47,35 @@ correct:".container"
                 correct:"Bootstrap"
                 },
                 {
-                    question:"What's the semantic html tag for a img caption?",
-                    answer1:"<figure>",
-                    answer2:"<img>",
-                    answer3:"<header>",
-                    answer4:"<figcaption>",
-                    correct:"<figcaption>"
+                    question:"What does CSS stand for?",
+                    answer1:"Computer science style",
+                    answer2:"Casscading Style Sheet",
+                    answer3:"Coding Style Sheet",
+                    answer4:"None of these",
+                    correct:"Casscading Style Sheet"
                     },
+                    {
+                        question:"What does a boolean refer to?",
+                        answer1:"a value that is true or false",
+                        answer2:"a false value only",
+                        answer3:"a true value only",
+                        answer4:"none of the above",
+                        correct:"a value that is true or false"
+                        },
+                        {
+                            question:"What symbol signifies a class?",
+                            answer1:".",
+                            answer2:"#",
+                            answer3:"/",
+                            answer4:"=",
+                            correct:"."
+                            },
+                            {
+                                question:"What symbol signifies an id?",
+                                answer1:".",
+                                answer2:"#",
+                                answer3:"=",
+                                answer4:"/",
+                                correct:"#"
+                                },
 ]
